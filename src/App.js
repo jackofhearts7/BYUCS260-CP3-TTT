@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Game from "./pages/Game";
 import Help from "./pages/Help";
+import "./App.css";
 
 export default function App() {
   return (
