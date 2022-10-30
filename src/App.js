@@ -1,16 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Game from "./pages/Game";
+import Help from "./pages/Help";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-        Hello World
-        </h1>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="game" element={<Game />} />
+          <Route path="help" element={<Help />} />
+          <Route path="*" element={<Navigate to="/" />}  />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
