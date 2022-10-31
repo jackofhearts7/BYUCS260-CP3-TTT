@@ -15,6 +15,7 @@ const Game = () => {
           <p class="SubTitle">Game</p>
             <Board reset={reset} setReset={setReset} winner={winner}
                    setWinner={setWinner} />
+            <Info />
           <button id="HelpButton">Help</button>
             {/* Shrinks the popup when there is no winner */}
             <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
