@@ -12,14 +12,11 @@ import { useState } from 'react';
 
 
 export default function App() {
-  const [reset, setReset] = useState(false);
-  const [winner, setWinner] = useState('');
-  const resetBoard = () => {
-    setReset(true);
-  }
-  
-  
-  
+    const [reset, setReset] = useState(false);
+    const [winner, setWinner] = useState('');
+    const resetBoard = () => {
+        setReset(true);
+    }
   return (
         <div className="App">
             {/* Shrinks the popup when there is no winner */}
@@ -33,8 +30,7 @@ export default function App() {
             </div>
             {/* Custom made board component comprising of 
             the tic-tac-toe board  */}
-            <Board reset={reset} setReset={setReset} winner={winner} 
-                setWinner={setWinner} />
+
             <Info />
 
     
