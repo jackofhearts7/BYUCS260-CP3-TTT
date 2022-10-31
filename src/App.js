@@ -18,20 +18,6 @@ export default function App() {
         setReset(true);
     }
   return (
-        <div className="App">
-            {/* Shrinks the popup when there is no winner */}
-            <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
-                {/* Display the current winner */}
-                <div className='winner-text'>{winner}</div>
-                {/* Button used to reset the board */}
-                <button onClick={() => resetBoard()}>
-                    Reset Board
-                </button>
-            </div>
-            {/* Custom made board component comprising of 
-            the tic-tac-toe board  */}
-
-            <Info />
 
     
     <BrowserRouter>
@@ -44,6 +30,6 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    </div>
+
   );
 }
