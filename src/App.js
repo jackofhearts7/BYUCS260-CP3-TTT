@@ -12,11 +12,6 @@ import { useState } from 'react';
 
 
 export default function App() {
-    const [reset, setReset] = useState(false);
-    const [winner, setWinner] = useState('');
-    const resetBoard = () => {
-        setReset(true);
-    }
   return (
 
     
