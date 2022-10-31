@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Game from "./pages/Game";
 import Help from "./pages/Help";
 import Board from "./board";
-import Info from "./info";
 import "./App.css";
 
 import { useState } from 'react';
