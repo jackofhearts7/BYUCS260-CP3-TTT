@@ -12,7 +12,6 @@ const Game = () => {
       <div class="App">
         <div class="TextBox">
           <h1 class="MainTitle">TicTacToe</h1>
-          <p class="SubTitle">Game</p>
             <Board reset={reset} setReset={setReset} winner={winner}
                    setWinner={setWinner} />
             <Info />
