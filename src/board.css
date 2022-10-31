@@ -2,11 +2,17 @@
 	--board-background: none;
 	--border-color: #f6546a;
 	--border-thickness: 5px;
+	padding: 0;
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	width: 100%;
 }
 
 .board{
-	width: 30vw;
-	height: 50%;
+	width: 325px;
+	height: 325px;
 	background-color: var(--board-background);
 	display: flex;
 	align-items: flex-start;
@@ -15,8 +21,8 @@
 }
 
 .input{
-	height: 33.33%;
-	width: 33.33%;
+	height: 100px;
+	width: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -27,50 +33,50 @@
 	font-size: 6rem;
 }
 
-.input-1{
+#input-1{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-2{
+#input-2{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-3{
+#input-3{
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-4{
+#input-4{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-5{
+#input-5{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-6{
+#input-6{
 	border-bottom: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-7{
+#input-7{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 }
 
-.input-8{
+#input-8{
 	border-right: var(--border-thickness)
 	dashed var(--border-color);
 }
