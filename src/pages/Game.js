@@ -15,7 +15,7 @@ const Game = () => {
             <Board reset={reset} setReset={setReset} winner={winner}
                    setWinner={setWinner} />
             <Info />
-          <button id="HelpButton">Help</button>
+            <a href="help"><button id="HelpButton">Help</button></a>
             {/* Shrinks the popup when there is no winner */}
             <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
                 {/* Display the current winner */}

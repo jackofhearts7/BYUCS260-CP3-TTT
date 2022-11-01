@@ -10,7 +10,8 @@ const Help = () => {
         <li>The first player to get 3 boxes in a row wins!</li>
         <li>If the board is filled and there is no winner, the game is a tie.</li>
     </ol>
-  </div>
+        <a href="game"><button id="PlayButton">Back to Game</button></a>
+    </div>
     )
 
 }
