@@ -1,11 +1,13 @@
+import {Link} from "react-router-dom"
+
 const Home = () => {
   return (
       <div class="App">
           <div class="TextBox">
             <h1 class="MainTitle">TicTacToe</h1>
             <p class="SubTitle">Three in a Row</p>
-              <a href="game"><button id="PlayButton">Play Now</button></a>
-              <a href="help"><button id="HelpButton">Help</button></a>
+              <Link to="/game"><button id="PlayButton">Play Now</button></Link>
+              <Link to="/help"><button id="HelpButton">Help</button></Link>
           </div>
       </div>
   );

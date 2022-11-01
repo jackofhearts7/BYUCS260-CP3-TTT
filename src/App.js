@@ -14,12 +14,12 @@ export default function App() {
   return (
 
     
-    <BrowserRouter>
+    <BrowserRouter basename="/tictactoe/build">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="game" element={<Game />} />
-          <Route path="help" element={<Help />} />
+          <Route path="/game" element={<Game />} />
+          <Route path="/help" element={<Help />} />
           <Route path="*" element={<Navigate to="/" />}  />
         </Route>
       </Routes>
