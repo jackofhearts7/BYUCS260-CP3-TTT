@@ -12,9 +12,7 @@ import { useState } from 'react';
 
 export default function App() {
   return (
-
-    
-    <BrowserRouter>
+    <BrowserRouter basename="/tictactoe/build">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
