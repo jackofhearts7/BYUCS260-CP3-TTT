@@ -3,7 +3,7 @@ import "../help.css";
 const Help = () => {
   return (
       
-    <div><h1>The Rules</h1>;
+    <div><h1>The Rules</h1>
     <ol>
         <li>The board is a 3x3 grid.</li>
         <li>One player is X, the other is O. Take turns marking a box.</li>
